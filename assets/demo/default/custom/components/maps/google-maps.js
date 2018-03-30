@@ -22,17 +22,15 @@ var GoogleMapsDemo = function() {
 
         });
 
-
-
         map.addMarker({
 
           animation: google.maps.Animation.DROP,
 
           position: {lat: 18.773554, lng: 99.006822},
 
-          title:'ADMIN'
+          title:'ADMIN',
 
-
+          // icon:'http://www.clker.com/cliparts/o/t/F/J/B/k/google-maps-th.png'
 
           });
 
