@@ -21,7 +21,7 @@ $( document ).ready(function() {
 
     var ref = firebase.database().ref();
 
-    var num_frtuRef = firebase.database().ref("overall");
+    var num_frtuRef = firebase.database().ref("Master/overall");
 
     num_FRTURef.on("child_changed", function(data) {
         console.log(data.key);
@@ -33,6 +33,6 @@ $( document ).ready(function() {
         }
     });
 
-  
+
 
 });
