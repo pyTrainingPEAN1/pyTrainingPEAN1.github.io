@@ -1,4 +1,4 @@
-x//== Class definition
+//== Class definition
 
 var GoogleMapsDemo = function() {
 
