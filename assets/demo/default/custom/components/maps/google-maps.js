@@ -1,4 +1,4 @@
-//== Class definition
+x//== Class definition
 
 var GoogleMapsDemo = function() {
 
@@ -30,7 +30,7 @@ var GoogleMapsDemo = function() {
 
           title:'ADMIN',
 
-          // icon:'http://www.clker.com/cliparts/o/t/F/J/B/k/google-maps-th.png'
+          icon:'http://www.clker.com/cliparts/o/t/F/J/B/k/google-maps-th.png'
 
           });
 
@@ -40,7 +40,9 @@ var GoogleMapsDemo = function() {
 
           position: {lat: 18.797314, lng: 99.008317},
 
-          title:'RCS0048'
+          title:'RCS0048',
+
+          icon: "http://1.bp.blogspot.com/_GZzKwf6g1o8/S6xwK6CSghI/AAAAAAAAA98/_iA3r4Ehclk/s1600/marker-green.png"
 
           });
 
@@ -90,11 +92,13 @@ var GoogleMapsDemo = function() {
 
               animation: google.maps.Animation.DROP,
 
-              position: {lat: 18.773554, lng: 99.006822},
+              position: {lat: 18.797126, lng: 98.961139},
 
-              title:'CMD'
+              title:'CMD',
 
-              });
+              icon:'http://www.clker.com/cliparts/o/t/F/J/B/k/google-maps-th.png',
+
+            } );
 
             map.addMarker({
 
@@ -102,9 +106,11 @@ var GoogleMapsDemo = function() {
 
               position: {lat: 18.838604, lng: 98.98839},
 
-              title:'RCS0044'
+              title:'RCS0044',
 
-              });
+              icon: "http://1.bp.blogspot.com/_GZzKwf6g1o8/S6xwK6CSghI/AAAAAAAAA98/_iA3r4Ehclk/s1600/marker-green.png"
+
+            },  "<h1>Marker 0</h1><p>This is the home marker.</p>");
 
             map.addMarker({
 
@@ -132,7 +138,9 @@ var GoogleMapsDemo = function() {
 
               position: {lat: 18.809143, lng: 99.004475},
 
-              title:'RCS0047'
+              title:'RCS0047',
+
+              icon: "http://1.bp.blogspot.com/_GZzKwf6g1o8/S6xwK6CSghI/AAAAAAAAA98/_iA3r4Ehclk/s1600/marker-green.png"
 
               });
 
