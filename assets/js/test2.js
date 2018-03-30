@@ -33,16 +33,6 @@ $( document ).ready(function() {
         }
     });
 
-    var num_masterRef = firebase.database().ref("overall");
-
-    num_masterRef.on("child_changed", function(data) {
-        console.log(data.key);
-        console.log(data.val());
-        if(data.key == "1PV221445K1200100") {
-            total_load_activePower  = data.val().load_activePower;
-        } else {
-           update_data(data.key, parseInt(data.val()))
-        }
-    });
+  
 
 });
